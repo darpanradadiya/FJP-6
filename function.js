@@ -20,3 +20,18 @@ let k=function minus(num1,num2)
     return(num1-num2)
 }
 console.log(k(1048,8999));
+(function(){
+    console.log("hello from fuck");
+})();
+
+(function(num1,num2){
+    console.log(num1/num2);
+})(11,48);
+
+(function(num1,num2){
+    console.log(num1+num2);
+})(11,48);
+
+(function(num1,num2){
+    console.log(num1-num2);
+})(11,48);
