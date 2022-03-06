@@ -11,8 +11,8 @@ function multiply(a,b,c)
     return(a*b*c);
 }
 sayhellu()
-let a=sum(20210,32020);
-let m=multiply(1,5,9);
+let a=sum(20210,32020.756);
+let m=multiply(1,5,9.56);
 console.log(a);
 console.log(m);
 let k=function minus(num1,num2)
@@ -35,3 +35,8 @@ console.log(k(1048,8999));
 (function(num1,num2){
     console.log(num1-num2);
 })(11,48);
+
+(function(num1,num2)
+{
+    console.log(num2%num1);
+})(1,16);

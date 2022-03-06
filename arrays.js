@@ -8,6 +8,11 @@ console.log(arr1);
 // console.log(arr1);
 // console.log(arr1[5]);
 arr1.push('i');
-console.log(arr1);
+console.log("afterpusha "+arr1);
 arr1.pop();
-console.log(arr1);
+console.log("after pop "+arr1);
+arr1.shift()
+console.log("after shift "+arr1);
+arr1.unshift('tfdsf');
+console.log("after shift "+arr1);
+console.log(arr1.length);

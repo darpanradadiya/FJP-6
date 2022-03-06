@@ -12,6 +12,7 @@ for(let i=0;i<15;i++)
 {
     console.log(i+" appa tukker");
 }
+
 let count =15
 while(count>0)
 {
