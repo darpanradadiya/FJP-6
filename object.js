@@ -31,4 +31,9 @@ captain.sayhi();
 captain.address.city = " berlin";
 captain.friends.push("bucky barns");
 captain.result = true;
+captain.movies = ['captain america ','Avengers ','age of ultron','civil war','infinity war']
+captain.movies.push('endgame');
+delete captain.address.city;
 console.log(captain);
+console.log(captain.name);
+console.log(captain['name'])
