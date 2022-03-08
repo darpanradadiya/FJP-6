@@ -20,7 +20,15 @@ let captain={
     address : {
         city : 'queens',
         state : 'los angeles',
-    }
+    },
+    sayhi : function(){
+        console.log("CAp says hellluuuuu");
 
+    }
 }
+console.log(captain);
+captain.sayhi();
+captain.address.city = " berlin";
+captain.friends.push("bucky barns");
+captain.result = true;
 console.log(captain);
